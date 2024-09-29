@@ -37,10 +37,6 @@ public class DayFiveTwo {
       seeds.add(seedRange);
     }
 
-    for (long[] abcd: seeds) {
-      System.out.println(abcd[0] + " to " + abcd[1]);
-    }
-
     String[] blocks = Arrays.stream(all.split("\\n\\n"))
         .skip(1)
         .toArray(size -> new String[size]);
